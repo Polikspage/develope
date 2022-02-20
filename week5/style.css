@@ -52,7 +52,7 @@ nav a {
 }
 
 .main-banner {
-background: url(../images/banner.jpg) center no-repeat;
+background: url(../images/banner.png) center no-repeat;
 height: 480px;
 background-size: cover;
 display: flex;
@@ -101,7 +101,7 @@ align-items: center;
 }
 
 .section2 {
-    background: url(/images/Rectangle6.jpg) center no-repeat;
+    background: url(/images/Rectangle6.png) center no-repeat;
     background-size: cover;
     text-align: center;
 }
