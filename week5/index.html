@@ -4,97 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week5 homework</title>
-    <style>
-        
-        main,
-        nav,
-        section,
-        aside,
-        footer{
-            border: 1px solid black;
-        }
-
-        header,
-        footer{
-            flex: 0 0 content;
-        }
-
-        main{
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: stretch;
-        }
-
-        body{
-            display: flex;
-            flex-flow: column;
-            min-height: 100vh;
-        }
-
-        nav{
-            width: 20vh;
-        }
-
-        aside{
-            width: 20vh;
-        }
-        section{
-            flex: 1;
-        }
-
-        p {
-            border: 1px solid red;
-        }
-
-        .flexcontainer{
-            display:flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: stretch;
-            border: 1px solid blue;
-            height: 300px;
-        }
-
-        .flexp_1{
-            align-self: center;
-            flex-grow: 1;
-        }
-
-        .flexp{
-            align-self: flex-start;
-            flex-basis: 200px;
-        }
-
-        h2{
-            border: 1px solid green;
-            align-items: center;
-            flex-direction: column;
-            height: 300px;
-        }
-        .flexcontainer2{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            border: 1px solid purple;
-        }
-    </style>
+    <title>Column</title>
 </head>
 <body>
-    <h1>Основная часть</h1>
-    <header class="header">
-        Шапка страницы
-        </header>
-    <div class="flexcontainer">
-        <p class="flexp">Еще 1</p>
-        <p class="flexp">Еще 2</p>
-        <p class="flexp_1">Еще 3</p>
-    </div>
-    <div class="flexcontainer2">
-        <h2>Боковая область</h2>
-    </div>
-    <footer></footer>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
 </body>
 </html>
