@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            text-align: center;
+        }
+
+        #header {
+            border: 2px solid grey;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        #main-left {
+            border: 2px solid lightyellow;
+            width: 75%;
+            
+        }
+
+        #main-left-top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #main-left-top .column {
+            border: 2px solid yellow;
+            width: 75%;
+            margin: 10px;
+        }
+
+        #main-left-bottom {
+            display: flex;
+        }
+
+        #main-left-bottom .column {
+            border: 2px solid yellow;
+            width: 100%;
+            margin: 10px;
+        }
+
+        #main-right {
+            border: 2px solid lightgreen;
+            width: 25%;
+        }
+
+        #footer {
+            border: 2px solid gray;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #footer .section {
+            border: 2px solid whitesmoke;
+            width: 25%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h3>[Шапка страницы]</h3>
+    </div>
+    <div id="main" class="flex-container">
+        <div id="main-left">
+            <h3>[Основная часть]</h3>
+            <div id="main-left-top">
+                <div class="column">
+                    <h3>[Ещё 1]</h3>
+                </div>
+                <div class="column">
+                    <h3>[Ещё 2]</h3>
+                </div>
+            </div>
+            <div id="main-left-bottom">
+                <div class="column">
+                    <h3>[Ещё 3]</h3>
+                </div>
+            </div>
+        </div>
+        <div id="main-right">
+            <h3>[Боковая область]</h3>
+        </div>
+    </div>
+    <div id="footer" class="flex-container">
+        <div class="section">
+            <h3>[Секция футера 1]</h3>
+        </div>
+        <div class="section">
+            <h3>[Секция футера 1]</h3>
+        </div>
+        <div class="section">
+            <h3>[Секция футера 1]</h3>
+        </div>
+        <div class="section">
+            <h3>[Секция футера 1]</h3>
+        </div>
+    </div>
+</body>
+</html>
