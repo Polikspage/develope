@@ -22,12 +22,11 @@ h4 {
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
 }
 
 #left {
     background-color: lightyellow;
-    width: 900px;
 }
 
 #blocks {
@@ -48,7 +47,6 @@ h4 {
 
 #right {
     background-color: lightgreen;
-    width: 300px;
 }
 
 #footer {
